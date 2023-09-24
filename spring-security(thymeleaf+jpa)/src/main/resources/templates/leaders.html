@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaders</title>
+</head>
+
+<body>
+    <hr>
+    <h2>Leaders</h2>
+    <br>
+    <p>Leaders Retreat</p>
+    <br><hr>
+    <a th:href="@{/}">Back to Home</a>
+    <br><br>
+    <form action="#" th:action="@{/logout}" method="post">
+        <button class="btn btn-danger" href="#" th:href="@{/logout}">Logout</button>
+    </form>
+
+</body>
+
+</html>
